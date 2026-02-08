@@ -118,9 +118,6 @@ header img{
 
 /******　ヘッダー（スマホ）　******/
 @media(max-width: 768px){
-	header{
-		background-color: rgba(0, 0, 255, 0.4);
-	}
 	header img{
 
 	}
@@ -190,9 +187,14 @@ h1{
 @media screen and (max-width: 768px) {
 	.executive {
 		flex-direction: column;
-		align-items: center;
+		align-items: stretch;
 		gap: 24px;
 		margin: 40px auto;
+	}
+
+	.executive-photo {
+		display: flex;
+		justify-content: center;
 	}
 	
 	.executive-photo img {
@@ -279,6 +281,3 @@ footer {
 		margin: 5px 0;
   }
 }
-
-
-
