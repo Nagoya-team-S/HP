@@ -188,28 +188,25 @@ h1{
 
 /******　役員（スマホ）　******/
 @media screen and (max-width: 768px) {
-  .executive {
-	  flex-direction: column;
-	  gap: 24px;
-	  margin: 40px auto;
-  }
+	.executive {
+		flex-direction: column;
+		gap: 24px;
+		margin: 40px auto;
+	}
+	
+	.executive-photo img {
+		display: block;
+		margin: 0 auto;
+		width: 160px;
+	}
 
-  .executive-photo img {
-	  display: block;
-	  margin: 0 auto;
-  }
+	.executive-profile h3 {
+		font-size: 20px;
+	}
 
-  .executive-photo img {
-	  width: 160px;
-  }
-
-  .executive-profile h3 {
-	  font-size: 20px;
-  }
-
-  .executive-profile p {
-	  font-size: 14px;
-  }
+	.executive-profile p {
+		font-size: 14px;
+	}
 }
 
 /***********　お問合せ　***********/
@@ -283,3 +280,5 @@ footer {
 		margin: 5px 0;
   }
 }
+
+
