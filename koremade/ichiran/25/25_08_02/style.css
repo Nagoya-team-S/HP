@@ -1,8 +1,6 @@
-/*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
-
 /*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
 body {
-	background-color: #b0c4de;
+	background-color: rgba(160, 216, 239, 0.4);
 	word-wrap: break-word;
 	overflow-wrap: anywhere;
 	margin: 0;
@@ -55,10 +53,10 @@ header img{
 
 /* ハンバーガーボタン */
 .menu-btn {
-  width: 65px;
-  height: 65px;
-  cursor: pointer;
-  background: url("../../../../imgs/menu_btn_cl.png") no-repeat center center / cover;
+  	width: 65px;
+  	height: 65px;
+  	cursor: pointer;
+  	background: url("../../../../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -111,16 +109,13 @@ header img{
 		 padding-right: ;
 	 }
 	.header-right a{
-	font-size: px;
-	padding: px px px px;
+		font-size: px;
+		padding: px px px px;
 	} 
 }
 
 /********************　ヘッダー（スマートフォン）　********************/
 @media(max-width: 768px){
-	header{
-		background-color: rgba(0, 0, 255, 0.4);
-	}
 	header img{
 
 	}
@@ -234,6 +229,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
