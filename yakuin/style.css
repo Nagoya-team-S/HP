@@ -50,15 +50,15 @@ header img{
 
 /* チェックボックスは非表示 */
 .menu-toggle {
-  display: none;
+	display: none;
 }
 
 /* ハンバーガーボタン */
 .menu-btn {
-  width: 65px;
-  height: 65px;
-  cursor: pointer;
-  background: url("../imgs/menu_btn_cl.png") no-repeat center center / cover;
+	width: 65px;
+	height: 65px;
+	cursor: pointer;
+	background: url("../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -67,35 +67,35 @@ header img{
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("../imgs/close_btn_cl.png") no-repeat center center / cover;
+	background: url("../imgs/close_btn_cl.png") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
 .nav {
-  display: none;
-  background: #444;
-  margin-top: 60px; /* ボタンの下に余白をつける */
+	display: none;
+	background: #444;
+	margin-top: 60px; /* ボタンの下に余白をつける */
 }
 
 /* チェック時のみ表示 */
 .menu-toggle:checked ~ .nav {
-  display: block;
+	display: block;
 }
 
 /* メニューデザイン */
 .nav ul li {
-  border-top: 1px solid #555;
+	border-top: 1px solid #555;
 }
 
 .nav ul li a {
-  display: block;
-  padding: 15px;
-  color: #fff;
-  text-decoration: none;
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
 }
 
 .nav ul li a:hover {
-  background: #666;
+	background: #666;
 }
 
 /******　ヘッダー（タブレット）　******/
@@ -150,67 +150,68 @@ h1{
 }
 
 .yakuin p:last-of-type,
-.yakuin-1 p:last-of-type,
-.yakuin-2 p:last-of-type,
-.yakuin-3 p:last-of-type,
-.yakuin-4 p:last-of-type,
+.executive p:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
 }
 
 /***********　役員　***********/
 .executive {
-  display: flex;
-  gap: 40px;
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-  align-items: flex-start;
+	display: flex;
+	gap: 40px;
+	max-width: 900px;
+	margin: 60px auto;
+	padding: 0 20px;
+	align-items: flex-start;
+}
+
+.executive-photo{
+	text-align: center;
 }
 
 .executive-photo img {
-  width: 220px;
-  height: auto;
-  border-radius: 4px;
+	width: 220px;
+	height: auto;
+	border-radius: 4px;
 }
 
 .executive-profile h2 {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 8px;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 8px;
 }
 
 .executive-profile h3 {
-  font-size: 24px;
-  margin-bottom: 16px;
+	font-size: 24px;
+	margin-bottom: 16px;
 }
 
 .executive-profile p {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 /******　役員（スマホ）　******/
 @media screen and (max-width: 768px) {
   .executive {
-    flex-direction: column;
-    gap: 24px;
-    margin: 40px auto;
+	  flex-direction: column;
+	  gap: 24px;
+	  margin: 40px auto;
   }
 
   .executive-photo {
-    text-align: center;
+	  text-align: center;
   }
 
   .executive-photo img {
-    width: 160px;
+	  width: 160px;
   }
 
   .executive-profile h3 {
-    font-size: 20px;
+	  font-size: 20px;
   }
 
   .executive-profile p {
-    font-size: 14px;
+	  font-size: 14px;
   }
 }
 
@@ -236,55 +237,52 @@ h1{
 /*********************　フッター　*********************/
 
 footer {
-  background-color: #222;
-  color: #fff;
-  padding: 40px 20px;
-  font-family: sans-serif;
+	background-color: #222;
+	color: #fff;
+	padding: 40px 20px;
+	font-family: sans-serif;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .footer-logo h2 {
-  margin: 0 0 20px;
-  font-size: 24px;
+	margin: 0 0 20px;
+	font-size: 24px;
 }
 
 .footer-links,
 .footer-social {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 .footer-links a,
 .footer-social a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: color 0.3s;
 }
 
 .footer-links a:hover,
 .footer-social a:hover {
-  color: #ff9800; /* ホバー時の色 */
+	color: #ff9800; /* ホバー時の色 */
 }
 
 .footer-copy {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #aaa;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #aaa;
 }
 
 /************* スマホ対応 ************/
 @media (max-width: 768px) {
-  .footer-links a,
-  .footer-social a {
-    display: block;
-    margin: 5px 0;
+	.footer-links a,
+	.footer-social a {
+		display: block;
+		margin: 5px 0;
   }
 }
-
-
-
