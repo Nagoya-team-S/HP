@@ -152,6 +152,13 @@ img{
 	height: auto;
 }
 
+.logo-bg{
+	display: inline-block;
+	padding: 20px 30px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 12px;
+}
+
 .main-top-text{
 	width: 90%;
 	padding: 0 15px;
@@ -353,3 +360,4 @@ footer {
 		margin: 5px 0;
   }
 }
+
