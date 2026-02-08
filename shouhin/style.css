@@ -200,7 +200,7 @@ h1{
 }
 
 .main-top p{
-	background-color: rgba(160, 216, 239, 0.3);
+	color: rgba(160, 216, 239);
 }
 
 .kongo{
@@ -341,3 +341,4 @@ footer {
     	margin: 5px 0;
   }
 }
+
