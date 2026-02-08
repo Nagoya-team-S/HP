@@ -194,8 +194,9 @@ h1{
 	  margin: 40px auto;
   }
 
-  .executive-photo {
-	  text-align: center;
+  .executive-photo img {
+	  display: block;
+	  margin: 0 auto;
   }
 
   .executive-photo img {
@@ -282,4 +283,3 @@ footer {
 		margin: 5px 0;
   }
 }
-
