@@ -165,10 +165,6 @@ h1{
 	align-items: flex-start;
 }
 
-.executive-photo{
-	text-align: center;
-}
-
 .executive-photo img {
 	width: 220px;
 	height: auto;
@@ -286,3 +282,4 @@ footer {
 		margin: 5px 0;
   }
 }
+
