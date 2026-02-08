@@ -2,7 +2,7 @@
 
 /*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
 body {
-	background-color: #b0c4de;
+	background-color: #a0d8ef;
 	word-wrap: break-word;
 	overflow-wrap: anywhere;
 	margin: 0;
@@ -281,3 +281,4 @@ footer {
 		margin: 5px 0;
   }
 }
+
