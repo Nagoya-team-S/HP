@@ -139,13 +139,13 @@ h1{
 	border-radius: 25px;
 }
 
+.set p:last-of-type{
+	border-bottom: 1px solid #333;
+}
+
 .Q&A p:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
-}
-
-.set p:last-of-type{
-	border-bottom: 1px solid #333;
 }
 
 /***********　Ｑ＆Ａ　**********/
@@ -226,3 +226,4 @@ footer {
     	margin: 5px 0;
   }
 }
+
