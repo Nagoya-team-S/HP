@@ -149,12 +149,6 @@ img{
 	text-align: center;
 }
 
-.main-logo{
-	width: 60%;
-	max-width: 500px;
-	height: auto;
-}
-
 .main-top-text{
 	width: 90%;
 	padding: 0 15px;
@@ -162,6 +156,12 @@ img{
 	font-size: 60px;
 	text-align: center;
 }
+
+.main-top-text p{
+	color: #000;
+	text-shadow: 0 4px 4px rgba(255, 255, 255, 0.9);
+}
+
 
 /*****************************　トップ 画像部（タブレット）　*****************************/
 @media(max-width: px){
@@ -197,10 +197,6 @@ h1{
 
 .main-top{
 	margin-bottom: 40px;
-}
-
-.main-top p{
-	color: rgba(160, 216, 239);
 }
 
 .kongo{
@@ -341,4 +337,5 @@ footer {
     	margin: 5px 0;
   }
 }
+
 
