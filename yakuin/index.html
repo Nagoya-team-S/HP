@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HP/">
 		<title>役員紹介 | 名古屋team S</title>
 		<meta name="description" content="名古屋team Sの役員を紹介します。">
 		<meta property="og:url" content="https://nagoya-team-s.github.io/HP/yakuin/">
@@ -10,8 +11,10 @@
 		<meta property="og:description" content="名古屋team Sの役員を紹介します。">
 		<meta property="og:image" content="https://nagoya-team-s.github.io/HP/imgs/namelogo.jpg">
 		<meta property="og:type" content="website">
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="../imgs/icon.PNG">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="koremade/style.css"
+		<link rel="icon" href="/imgs/icon.PNG">
 		<script type="application/ld+json">
 			{
 			"@context": "https://schema.org",
@@ -24,34 +27,12 @@
 			}
 		</script>
 	</head>
-	
 		<body>
+
 <!------------　ヘッダー　----------->
-<header>
-	<div class="header-left">
-		<a href="..">
-		    <img src="../imgs/namelogo_cl.png" alt="名古屋team S　ロゴ" loading="lazy">
-		</a>
-	</div>
+<div id="header"></div>
+<script src="js/include.js"></script>
 
-  <!-- チェックボックス（表示切替用） -->
-  <input type="checkbox" id="menu-toggle" class="menu-toggle">
-  <label for="menu-toggle" class="menu-btn"></label>
-
-  <!-- ナビゲーション -->
-  <nav class="nav">
-    <ul>
-		<li><a href="..">トップ</a></li>
-		<li><a href="../koremade">これまでの活動</a></li>
-		<li><a href="../busho">団体の部署</a></li>
-		<li><a href="../shouhin">商品紹介</a></li>
-		<li><a href="../logo&icon">キャラクター・ロゴ・アイコン</a></li>
-		<li><a href="">役員</a></li>
-		<li><a href="../Q&A">よくある質問</a></li>
-	</ul>
-  </nav>
-	
-</header>
 <div class="pd"></div>
 <!-----------　メイン　----------->
 <main>
@@ -59,7 +40,7 @@
 <!------　パンくずリスト　------>
 <div class="pankuzu">
 	<p>
-		<a href="..">トップ</a>
+		<a href="./">トップ</a>
 		 / 役員
 	</p>
 </div>
@@ -70,7 +51,7 @@
 <!------　役員1　------->
 	<section class="executive">
 		<div class="executive-photo">
-			<img src="imgs/Ozone.JPG" alt="代表 大曽根 壱哉">
+			<img src="yakuin/imgs/Ozone.JPG" alt="代表 大曽根 壱哉">
 		</div>
 
 		<div class="executive-profile">
@@ -165,41 +146,12 @@
 </div>
 
 <!------　メイン　お問合せ　------>
-<div class="main-otoiawase">
-	<h1>お問合せ</h1>
-	<p>イベントや学校での、防災/減災に関する講演・出展・企画のご依頼をお待ちしております。ご希望の方は、下記mailまでお気軽にご連絡いただけますと幸いです。</p>
-	<p class="mail">全体mail</p>
-	<p class="mail">nagoyateamsince20241215@gmail.com</p>
-</div>
-
+<dev id="otoiawase"></dev>
 
 </div>
 </main>
-<!--フッター-->
-<footer>
-  <div class="footer-container">
-    <div class="footer-logo">
-      <h2>名古屋team S</h2>
-    </div>
-    <div class="footer-links">
-		<a href="..">トップ</a>
-		<a href="../koremade">これまでの活動</a>
-		<a href="../busho">団体の部署</a>
-		<a href="../shouhin">商品紹介</a>
-		<a href="../logo&icon">キャラクター・ロゴ・アイコン</a>
-		<a href="">役員</a>
-		<a href="../Q&A">よくある質問</a>
-    </div>
-    <div class="footer-social">
-      <a href="https://www.instagram.com/nagoya_team_s/">Instagram</a>
-    </div>
-    <p class="footer-copy">© 2026 Nagoya team S. All rights reserved.</p>
-  </div>
-</footer>
+<!-----------　フッター　----------->
+<div id="footer"></div>
 
 		</body>
 </html>
-
-
-
-
