@@ -19,3 +19,7 @@ img{
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
 }
+
+.temp-disable {
+  display: none;
+}
