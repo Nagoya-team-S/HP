@@ -8,8 +8,37 @@ img{
 	height:300px;
 }
 
-.link a{
-	margin-bottom: 15px;
+/**********　表　**********/
+table {
+	border-collapse: collapse;
+	border: 3px solid black;
+	width: auto;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+th {
+	border-bottom: 3px solid black;
+}
+
+/*****　列の幅　*****/
+th:nth-child(1), td:nth-child(1) {
+	width: 100px;
+}
+
+th:nth-child(2), td:nth-child(2) {
+	width: 300px;
+}
+
+th:nth-child(3), td:nth-child(3) {
+	width: 140px;
+}
+
+table{
+	table-layout: fixed;
 }
 
 .link a:last-of-type,
