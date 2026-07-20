@@ -1,0 +1,9 @@
+.hajimeni p:last-of-type,
+.yoto p:last-of-type,
+.gaku p:last-of-type,
+.henrei p:last-of-type,
+.hoho p:last-of-type,
+.somu-mail p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
