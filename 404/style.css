@@ -1,10 +1,16 @@
+.main{
+	position-top: 100px;
+}
+
+
 h2{
-	font-size: 40px;
+	font-size: 100px;
+	text-align: center;
 }
 
 @media(max-width: 768px){
 	h2{
-		font-size: 32px;
+		font-size: 70px;
 	 }
 }
 
