@@ -1,0 +1,15 @@
+h2{
+	font-size: 40px;
+}
+
+@media(max-width: 768px){
+	h2{
+		font-size: 32px;
+	 }
+}
+
+
+.404 p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
